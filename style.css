@@ -93,6 +93,6 @@ p {
 
 @keyframes fade-in {
     from {opacity:0%; width: 0%}
-    to {opacity: 100%; width:50%; height:10%: }
+    to {opacity: 100%; width:50%; height:10%; }
 }
 
