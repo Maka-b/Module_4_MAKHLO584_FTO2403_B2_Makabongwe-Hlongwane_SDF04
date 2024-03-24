@@ -49,6 +49,50 @@ p {
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
+    
 }
 
-/* Add your custom styles for btn-1, btn-2, and btn-3 */
+.btn-1 {
+    transition: all 0.5s ease-in-out ;
+    cursor: pointer;
+    
+    
+}
+.btn-1:hover {
+    color:rgba(7, 255, 28, 0.808);
+    background-color: #676767;
+    border-bottom: 2px dotted rgb(247, 3, 3);
+
+}
+.btn-1:active {
+    box-shadow: 0 5px 10px rgb(4, 4, 255);
+    transform: translateY(4px);
+}
+
+.btn-2 {
+    transition: all 1s ease-in-out 0.5s;
+    cursor: pointer ;
+    background-color: #140781;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn-2:hover {
+    color:rgba(7, 255, 28, 0.808);
+    background-color: #140781;
+    transform: rotate(360deg);
+}
+
+
+.btn-3 {
+    border-bottom: ;
+}
+.btn-3:hover {
+    animation: fade-in 1s ease backwards;
+    background-image: linear-gradient(green,purple);
+
+} 
+
+@keyframes fade-in {
+    from {opacity:0%; width: 0%}
+    to {opacity: 100%; width:50%; height:10%: }
+}
+
