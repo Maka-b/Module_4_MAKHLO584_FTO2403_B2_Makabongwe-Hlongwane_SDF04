@@ -88,7 +88,7 @@ p {
 .btn-3:hover {
     animation: fade-in 1s ease backwards;
     background-image: linear-gradient(green,purple);
-
+    
 } 
 
 @keyframes fade-in {
